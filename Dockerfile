@@ -1,3 +1,3 @@
 FROM scratch
-RUN mkdir -p /tyx/
-CMD ["/tyx/main"]
+RUN mkdir -p /go/
+CMD ["/go/main"]
