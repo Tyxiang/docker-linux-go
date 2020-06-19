@@ -1,3 +1,3 @@
 FROM scratch
 WORKDIR /go/
-CMD main
+CMD /go/main
