@@ -1,3 +1,4 @@
 FROM scratch
 ADD go/ /go/
-CMD ["/go/main"]
+WORKDIR /go/
+CMD ["main"]
