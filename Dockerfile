@@ -1,3 +1,3 @@
 FROM scratch
 ADD go/ /go/
-CMD ["/main"]
+CMD ["/go/main"]
